@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+ <!-- header -->
+ <header class="header">
+ <a href="#"><img src="logo.png" alt="business logo" id="logo"></a>
+ <div class="navMenu" id="navMenu">
+ <i class='bx bx-window-close' onclick="closeMenu()" ></i>
+ <ul>
+ <li><a href="index.html">Home</a></li>   
+ <li><a href="about.html">About</a></li>    
+ <li><a href="service.html">Service</a></li>
+<li><a href="portfolio.html">Portfolio</a></li> 
+<li><a href="contact.html">Contact</a></li>   
+ </ul>   
+ </div>
+ <i class='bx bx-menu' onclick="openMenu()"></i>
+ </header>
+ 
+ <!--- subheader session--->
+<section class="sub-header1"  id="sub-header1">
+<h1>About <span>Me</span></h1>
+
+</section>
+ 
+ 
+ <!-- About Section -->
+ <section class="about" id="about">
+ <div class="about-img">
+ <img src="pic.png" alt="picture">  
+ </div>
+ <div class="about-text">   
+ <h2><span>Welcome</span> To My Studio</h2>
+ <p> 
+Hi there!, I am Habibah, your friendly Design Technologist. I thrive at the intersection of creativity and technology, turning innovatiive ideas into interactive experiences. When I'm not busy crafting beautiful and user-friendly websites, you can find me experimenting with the latest design trends or diving into a new tech skill.
+
+I am Muslimah, a Tech Enthusiast, a professional Graphic Designer, a Video Creator, an Arabic Calligrapher, and a Hair Stylist. I have a deep understanding of Art and  design principles. I like creating beautiful, professional designs and ads that help promote business brands. <br><br>
+
+With a professional skills in frontend development and knowledge in Python, I create an interactive and user-experience websites that help business brands to reach a wider audience. I like to take on challenges that crack the code of innovation, aiming to provide advance new solutions that help benefit humanity. I love to learn and push beyond boundaries of what's possible. <br><br>
+
+I am passionate about teaching and mentoring students to help pass my knowledge to the next generation. I love to work and collaborate with talented and creative individuals like me, and I am excited to see what the future holds for science, digital designs, and technology through groundbreaking research.
+</p>
+<a  href="Contact.html" class="btn">Let's Talk</a>
+ </div><br><br>
+ </section>
+ 
+ <section class="others"  id="others">
+ <div class="sub-text-title">
+ <h2>Why <span>Me?</span></h2>
+ </div>
+
+ <div class="others-img"> 
+ <img src="wall5.jpg" alt="" >
+ <span class="circle-spin"> </span>
+ </div>
+ <div class="others-text">
+ <h3><span>As a </span> Design Technologist & a Web Development Trainer</h3><br>
+ <p> 
+  - I bring a unique perspective to my work, combinig technical expertise with creative vision.<br><br>
+
+  - I understand that each person and each project is unique, and I tailor my approach to meet individual needs.<br><br>
+ 
+  - I help people achieve their full potentials and make their dreams a reality.<br><br>
+</p>
+ </div>
+ <div >
+ <a href="#" class="btn">Hire Me</a>
+ </div>
+ </section>
+ 
+    
+<!-- footer -->
+<footer class="footer">
+<div class="attribution">
+<p>Design With <i class="bx bx-heart"></i>By Habibatu Lambon</p>
+<p>Copyright 2025</p>
+</div>
+
+<div class="move-up">
+<a href="#sub-header"><i class="bx bx-up-arrow-alt"></i></a>
+ 
+</div>
+</footer>
+    
+    
+    
+<!-- JavaScript for toggle menu-->
+    
+    <script>
+        var navMenu = document.getElementById("navMenu");
+
+        function openMenu() {
+            navMenu.style.right = "0";
+        }
+
+        function closeMenu() {
+            navMenu.style.right = "-200px";
+        }
+     </script>
+     
+    
+    
+</body>
+</html>
